@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useActiveSection } from "../context/ActiveSectionContext";
 
 const useActiveSectionOnScroll = () => {
