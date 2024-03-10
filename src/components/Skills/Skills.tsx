@@ -7,7 +7,7 @@ const Skills = () => {
           <header className="skills__type">
             <div className="skills__logo">
               <img
-                src="/assets/image/frontend-icon.svg"
+                src="/portfolio/assets/image/frontend-icon.svg"
                 alt="frontend-skills"
               />
             </div>
@@ -24,7 +24,7 @@ const Skills = () => {
         <section className="skills__container">
           <header className="skills__type">
             <div className="skills__logo">
-              <img src="/assets/image/backend-icon.svg" alt="backend-skills" />
+              <img src="/portfolio/assets/image/backend-icon.svg" alt="backend-skills" />
             </div>
           </header>
           <div className="skills__block">
@@ -37,7 +37,7 @@ const Skills = () => {
           <header className="skills__type">
             <div className="skills__logo">
               <img
-                src="/assets/image/other-skills-icon.svg"
+                src="/portfolio/assets/image/other-skills-icon.svg"
                 alt="other-skills"
               />
             </div>
