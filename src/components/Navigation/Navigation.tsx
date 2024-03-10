@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useActiveSection } from "../../context/ActiveSectionContext";
 
 const Navigation = () => {

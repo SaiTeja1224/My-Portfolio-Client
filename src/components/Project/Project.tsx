@@ -1,5 +1,3 @@
-import React from "react";
-
 const Project = () => {
   return (
     <article className="project" id="project">

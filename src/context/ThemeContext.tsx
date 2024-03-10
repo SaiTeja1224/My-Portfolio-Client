@@ -1,10 +1,10 @@
-import React, { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 type Themes = 'dark' | 'light';
 
 type ThemeContextValues = {
     theme : Themes,
-    setTheme : (a: Themes) => any
+    setTheme : any
 }
 
 const ThemeContext = createContext<ThemeContextValues>({

@@ -7,7 +7,7 @@ interface ActiveSectionContextData {
 }
 const ActiveSectionContext = createContext<ActiveSectionContextData>({
   activeSection: "home",
-  setSection(section) {},
+  setSection() {},
   setSectionByIndex: (_) => {},
 });
 
