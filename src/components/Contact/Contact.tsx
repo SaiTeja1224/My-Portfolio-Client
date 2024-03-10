@@ -45,7 +45,7 @@ const Contact = () => {
           />
           <button className="section-btn input__button">
             Send Email
-            <img src="portfolio/image/send.png" width={20} height={18} />
+            <img src="/portfolio/image/send.png" width={20} height={18} />
           </button>
         </form>
       </section>
