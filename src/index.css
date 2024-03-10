@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
+:root {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  --ff-head: "Rakkas", serif;
+  --ff-accent: "Ubuntu", sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --clr-accent: #1665bf;
+  --clr-light: #b5e3ff;
+  --clr-text: #61656e;
+  /* #b2dcff */
+  --clr-light-shadow: #1665bf4d;
+  --clr-secondary-bg: #f4faff;
+  --clr-dark: #121212;
+  --clr-white: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-accent, sans-serif);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-head, serif);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+form,
+input,
+textarea {
+  font-family: inherit;
+}
