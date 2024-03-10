@@ -52,7 +52,7 @@ const Hero = () => {
               >
                 Download Resume
                 <img
-                  src="/portfolio/assets/image/download-white.svg"
+                  src="/image/download-white.svg"
                   width={20}
                   height={18}
                 />
@@ -60,7 +60,7 @@ const Hero = () => {
               <a className="section-btn button-contact" href="#contact-form">
                 Contact me here{" "}
                 <img
-                  src="/portfolio/assets/image/contact-arrow.gif"
+                  src="/image/contact-arrow.gif"
                   width={25}
                   height={20}
                 />
@@ -69,7 +69,7 @@ const Hero = () => {
             <section className="intro__socials">
               <a href="https://www.linkedin.com/in/sai-teja-j/" target="_blank">
                 <img
-                  src="/portfolio/assets/image/linked-in.svg"
+                  src="/image/linked-in.svg"
                   alt="linkedin link"
                   width={30}
                   height={30}
@@ -77,7 +77,7 @@ const Hero = () => {
               </a>
               <a href="https://github.com/saiteja1224" target="_blank">
                 <img
-                  src="/portfolio/assets/image/github.svg"
+                  src="/image/github.svg"
                   alt="github link"
                   width={32}
                   height={32}

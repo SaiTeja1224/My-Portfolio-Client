@@ -17,12 +17,12 @@ const Utility = (props : props) => {
     <aside className="utils">
       <div className="utils__container">
         <a href="#home" className="utils__btn">
-          <img src="/portfolio/assets/image/to-top.gif" width={30} height={35} />
+          <img src="/image/to-top.gif" width={30} height={35} />
         </a>
       </div>
       <div className="utils__container">
         <button className="utils__btn" onClick={() => {handleThemeChange()}}>
-          <img src="/portfolio/assets/image/dark-mode.gif" width={30} height={30} />
+          <img src="/image/dark-mode.gif" width={30} height={30} />
         </button>
       </div>
     </aside>
