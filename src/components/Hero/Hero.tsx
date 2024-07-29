@@ -40,7 +40,7 @@ const Hero = () => {
             <strong>1 year</strong> of experience. I have a passion for creating
             sites & apps with a slick and responsive design.{" "}
             <u>
-              <em>React & Node</em>
+              <em>React, Next & Node</em>
             </u>{" "}
             are my primary fields.
           </h1>
