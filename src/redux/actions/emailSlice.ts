@@ -11,7 +11,7 @@ export const sendMail = createAsyncThunk(
   "emails/send",
   async (body: { emailId: string; message: string }, { rejectWithValue }) => {
     const response = await axios.post(
-      "http://localhost:5000/emails/send-mail",
+      "https://api.webdevsai.com/portfolio/emails/send-mail",
       body
     );
     const data = response.data;
